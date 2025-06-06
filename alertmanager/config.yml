@@ -1,9 +1,9 @@
 
 global:
   smtp_smarthost: 'smtp.gmail.com:587'
-  smtp_from: 'imkool.memes69@gmail.com'
-  smtp_auth_username: 'imkool.memes69@gmail.com'
-  smtp_auth_password: 'nviw awqm ofel jwid'
+  smtp_from: 'yourmail@gmail.com'
+  smtp_auth_username: 'yourmail@gmail.com'
+  smtp_auth_password: 'your mail app password'
 
 route:
   group_by: ['alertname']
@@ -24,7 +24,7 @@ route:
 receivers:
   - name: 'slack-notifications'
     slack_configs:
-      - api_url: 'https://hooks.slack.com/services/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'
+      - api_url: 'slack_webhook_url'
         channel: '#alerts'
         send_resolved: true
         title: '{{ .CommonAnnotations.summary }}'
@@ -32,6 +32,6 @@ receivers:
 
   - name: 'email-notifications'
     email_configs:
-      - to: 'everydaynormalguy0690@gmail.com'
+      - to: 'email-to-recievce notifications'
         send_resolved: true
 
