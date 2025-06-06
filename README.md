@@ -16,6 +16,27 @@ A complete containerized monitoring system that tracks system and container perf
 
 ## 📸 Screenshots
 
+#### Prometheus :
+![prometheus](https://raw.githubusercontent.com/imkool47/prometheus-grafana-alertmanager/refs/heads/main/screenshots/Prometheus.png)
+
+#### Grafana :
+![grafana](https://raw.githubusercontent.com/imkool47/prometheus-grafana-alertmanager/refs/heads/main/screenshots/grafana-dashboard.png)
+
+### Alertmanager :
+![alertmanager](https://raw.githubusercontent.com/imkool47/prometheus-grafana-alertmanager/refs/heads/main/screenshots/alertmanager.png)
+
+### Node Exporter Metrics :
+![metrics](https://raw.githubusercontent.com/imkool47/prometheus-grafana-alertmanager/refs/heads/main/screenshots/metrics.png)
+
+### cAdvisior : 
+![cadvisior]()
+
+### Slack Alert 
+![slack](https://raw.githubusercontent.com/imkool47/prometheus-grafana-alertmanager/refs/heads/main/screenshots/slack.png)
+
+### Slack Mail Alert : 
+![mail](https://raw.githubusercontent.com/imkool47/prometheus-grafana-alertmanager/refs/heads/main/screenshots/slack-email-alert.png)
+
 ---
 
 ## ⚙️ Features
